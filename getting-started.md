@@ -1,5 +1,5 @@
 
-## Onboarding to SearchSG to start using Search
+## Getting Started - Onboarding Steps to start using Search
 
 ### Setting Up Your Tenant
 

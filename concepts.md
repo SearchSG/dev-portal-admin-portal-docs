@@ -1,4 +1,4 @@
-## Key Concepts
+## Key Concepts - How does SearchSG Work?
 
 ### Tenant (Project)
 
