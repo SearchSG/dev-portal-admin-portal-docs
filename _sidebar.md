@@ -1,2 +1,2 @@
 - [Key Concepts](concepts.md)
-- [Getting Started](getting-started.md)
+- [Onboarding to SearchSG](onboarding.md)

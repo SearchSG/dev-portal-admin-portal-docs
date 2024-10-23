@@ -5,4 +5,4 @@
 - manage search configurations
 - view search usage analytics data for your search applications
 
-To access the admin portal, make sure you a valid for TechPass account.
+To access the admin portal, make sure you have a valid for TechPass account.
