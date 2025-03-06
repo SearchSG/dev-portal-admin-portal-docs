@@ -3,11 +3,11 @@
 - A `Site` refers to a website or server-side application that integrates with SearchSG. 
 - It serves as a workspace for multiple applications, such as Search and Recommend, requiring only a one-time integration to enable the use of multiple application features.
 - An `Application` encapsulates all configurations for a specific search / recommend feature deployed on your site. E.g. search bar settings and filter configurations for your search app are managed under 'Applications'. 
-- The creation of a `Site`is now seamlessly integrated into the `Create Application` flow, allowing it to be developed in parallel with the `Application` for a unified and efficient process.
+- The creation of a `Site`is seamlessly integrated into the `Create Application` flow, allowing it to be developed in parallel with the `Application` for a unified and efficient process.
 
 ## Site
 ### How to create a site?
-- A `Site` is created seamlessly during the `Create Application` flow to configure where and how your search and recommend applications will be deployed.
+- A `Site` is created seamlessly during the `Create Application` flow to configure where and how your search and recommend applications will be deployed and integrated to your site.
 
 ### How to edit site settings?
 1. Login to Admin Portal
