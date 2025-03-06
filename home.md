@@ -6,7 +6,7 @@
 - View search usage analytics data for your search applications
 
 ## Table of Contents
-1. [Key Concepts of SearchSG Resources](/concepts)
+1. [Key Concepts of SearchSG Admin Portal](/concepts)
 2. [Onboarding Guide](/onboarding)
 3. [Authentication Guide](/authentication#authentication)  
    3.1 [How to login to Admin Portal?](/authentication#how-to-login-to-admin-portal)  
@@ -26,17 +26,14 @@
    6.3 [How to delete a Search Index](/index#how-to-delete-the-search-index)  
 7. [Application Guide](/application)  
    7.1 [Search Bar Application](/application#search-bar)
-      7.1.1 [How to create a Search Bar?](/application#how-to-create-a-search-bar-application)
-      7.1.2 [Configuring your Search Bar](/application#configuring-your-search-bar-application)
-         7.1.2.1 [Basic Setup](/application#basic-setup)
-         7.1.2.2 [Advanced Setup](/application#advanced-setup)
-         7.1.2.3 [UI Customization](/application#ui-customization)
-         7.1.2.4 [Search Filter & Result Item Customisation](/application#search-filter--result-item-customisation)
-      7.1.3 [How to disable a Search Bar?](/application#how-to-disable-a-search-bar-application)
+      - [How to create a Search Bar?](/application#how-to-create-a-search-bar-application)
+      - [Configuring your Search Bar](/application#configuring-your-search-bar-application)
+      - [How to disable a Search Bar?](/application#how-to-disable-a-search-bar-application)
+   
    7.2 [Site](/application#site)
-      7.2.1 [How to create a site?](/application#how-to-create-a-site)
-      7.2.2 [How to edit site settings?](/application#how-to-edit-site-settings)
-      7.2.3 [How to delete a site?](/application#how-to-delete-a-site)
+      - [How to create a site?](/application#how-to-create-a-site)
+      - [How to edit site settings?](/application#how-to-edit-site-settings)
+      - [How to delete a site?](/application#how-to-delete-a-site)
 8. [Analytics Guide](/analytics)  
    8.1 [How to access the search bar analytics?](/analytics#how-to-access-the-search-bar-analytics)  
 

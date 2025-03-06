@@ -1,4 +1,4 @@
-## Key Concepts - How does SearchSG Work?
+## Key Concepts - How does SearchSG Admin Portal Work?
 
 ### Project (Tenant)
 
