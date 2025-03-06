@@ -15,32 +15,32 @@
 2. Add a New Index
     - Click on "Add new +" within the project card that you want to add your index to.
     - Enter the title of the index in the pop-up window and click on "Create."
-    ![Create index](images/create_index.png)
+    ![Create index](images/index/create_index.png)
 
 4. View Created Index in Index Overview
     - The created index will have a status that indicates "Action Required: Add Data Source" on the Index overview page after creation.
-    ![Index overview](images/index_overview.png)
+    ![Index overview](images/index/index_overview.png)
 
 5. Add a Data Source
     - Click on "Data sources" tab and you will be taken to the data source page.
-    ![Data sources](images/index_data_source.png)
+    ![Data sources](images/index/index_data_source.png)
 
 6. Setup a Web Data Source
     - To add a `Web Data Source`, choose "Add new +" within Web data source card and proceed to set up the data source.
-    ![Web data sources](images/index_web_data_source.png)
+    ![Web data sources](images/index/index_web_data_source.png)
     - Select your website domain to index from a list of websites that SearchSG crawls. If you cannot locate your domain, click on "Can’t find your domain?".
     
     - Whitelisted and blacklisted pages are optional configuration to exclude certain webpages.
 
     - Click on "Save" and then "Proceed" in the confirmation pop-up window.
-    ![Add web data sources](images/index_add_web_data_source.png)
+    ![Add web data sources](images/index/index_add_web_data_source.png)
     - You will be taken back to the previous page with the newly created data source listed under the "Web data sources" section.
-    ![Updated web data sources](images/updated_web_data_source.png)
+    ![Updated web data sources](images/index/updated_web_data_source.png)
 
 7. Trigger Sync Process to Prepare Index
     - Under "Index overview", the status of the index should be updated to "Pending Sync".
 
-    ![Index overview](images/index_overview_pending_sync.png)
+    ![Index overview](images/index/index_overview_pending_sync.png)
     - Click on sync icon next to index status to trigger syncing process to start immediately, or wait for the scheduled job to start sync for your index automatically at a later timing.
     - Once sync process is complete and your index is ready to be used, the index status will update to be "Active".
 
@@ -50,13 +50,13 @@
     - Navigate to the "Synonyms" page to set up synonyms. 
 2. Request Synonyms setup for your Index
     - To add synonyms, reach out to us by clicking on the "Submit request form" button.
-    ![Synonyms](images/index_synonyms.png)
+    ![Synonyms](images/index/index_synonyms.png)
 
 
 #### Featured Results
 1. Access Featured Results
     - Navigate to the "Featured results" page to configure the featured search result. 
-    ![Featured results](images/index_featured_results.png)
+    ![Featured results](images/index/index_featured_results.png)
 
 2. Create Featured Results
     - Click on "Add new +" to create a new featured result set.
@@ -65,22 +65,18 @@
         - Page URLs: The URLs of webpages within your index to be pinned to the top of search results. 
         
         Both fields are compulsory.
-
-        ![Add featured results](images/index_add_featured_results.png)
+        ![Add featured results](images/index/index_add_featured_results.png)
 3. Save and Verify
     - After saving the featured results, you will return to the previous page and see the newly created featured result(s) listed under the "Set up featured results" section.
-    ![Set up featured results](images/index_setup_featured_results.png)
+    ![Set up featured results](images/index/index_setup_featured_results.png)
 
 ### How to delete the Search Index?
 ***Note: Deleting a search index will remove all previous collected interaction feedback and incremental learning improvements associated with your search index, affecting search relevance.***
 1. Click on "More actions" and then "Delete."
-
-![Delete index](images/index_overview_delete.png)
+![Delete index](images/index/index_overview_delete.png)
 
 2. Click on "Delete" in the pop-up window.
-
-![Delete index](images/delete_index.png)
+![Delete index](images/index/delete_index.png)
 
 3. You will be brought back to the index library page after the index is successfully removed.
-
-![Delete index](images/index_deleted.png)
+![Delete index](images/index/index_deleted.png)

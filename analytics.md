@@ -1,13 +1,12 @@
-## Search Engine Analytics
+## Search Bar Analytics
 
-### How to access the search engine analytics?
+### How to access the search bar analytics?
 1. Login to the Admin Portal.
 
 2. Under `Workspace`, select the site in the site drop-down list and click on the `Analytics` tabs - `Search Usage`, `Search Analytics` or `Query Insight`. 
 
 3. By default, analytics data displayed will be for the last 30 days. You can make use of the date range filter to look for analytics within a specific date range.
-
-![Workspace](images/workspace.png)
+![Workspace](images/analytics/workspace.png)
 
 
 

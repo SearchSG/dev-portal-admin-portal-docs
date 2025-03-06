@@ -1,2 +1,8 @@
 - [Key Concepts](concepts.md)
 - [Onboarding to SearchSG](onboarding.md)
+- [Authentication to Admin Portal](authentication.md)  
+- [Project Guide](project.md)  
+- [Index Guide](index.md)  
+- [Application Guide](application.md)  
+- [Search Engine Analytics](analytics.md)  
+- [User Profile Guide](user.md)  
