@@ -5,8 +5,9 @@
 - An `Application` encapsulates all configurations for a specific search / recommend feature deployed on your site. E.g. search bar settings and filter configurations for your search app are managed under 'Applications'. 
 - The creation of a `Site`is now seamlessly integrated into the `Create Application` flow, allowing it to be developed in parallel with the `Application` for a unified and efficient process.
 
-### Search Bar Application
-#### How to create a Search Bar Application?
+
+## Search Bar Application
+### How to create a Search Bar Application?
 1. Login to Admin Portal.
 
 2. Click on "Create app" then "Search Bar".
@@ -39,10 +40,10 @@
 ![Create app](images/application/search_bar/search_bar_basic_setup.png)
 
 
-#### Configuring your Search Bar
+### Configuring your Search Bar
 Once your search Bar application is created, you can customise your search application under `Applications > Search Bar` section in the side menu.
 
-##### Basic Setup
+#### Basic Setup
 1. Search Bar Placement
     - Enter the HTML Id of the container div element where you would like the search bar component to be rendered on your website.
     - Follow the onboarding guide on how to [add the searchbar widget to your website](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/getting-started?id=step-2-adding-searchbar-widget-to-your-site).
@@ -51,10 +52,10 @@ Once your search Bar application is created, you can customise your search appli
     - Control whether you would like the search results page to be embedded within your website or redirected to a standalone search results page hosted on search.gov.sg domain.
     - If you have chosen to embed the search results `within your own website`, follow the onboarding guide on how to [embed the search results page within your website search page.](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/customisation-embed?id=embedded-search-results-page-experience)
 
-##### Advanced Setup
+#### Advanced Setup
 Follow the index guide on how to [create, configure and delete a Search index](/index)
 
-##### UI Customization
+#### UI Customization
 1. Search bar features
    - Placeholder text: Customise the text displayed in the search bar before a user types.
 
@@ -79,9 +80,6 @@ Follow the index guide on how to [create, configure and delete a Search index](/
 
    - Search result item: Select the details such as `Content type tag`, `'Jump to section' links` and `Topic tag` you would like to show in your search result items.
 
-   - SmartAnswer: This feature is driven by Generative AI, a type of artificial intelligence technology.
-      - Enable: Show an AI-generated summary of search results at the top of the page. This summary comes from information on your site.
-      - Disable: Show only standard search results without the AI-generated summary.
 
 3. Colours & Fonts
    - Main colours: Set the default colours that will be applied on your search bar.
@@ -103,7 +101,7 @@ Follow the index guide on how to [create, configure and delete a Search index](/
          - Use SearchSG's predefined defaults: Select this option to use our recommended set of breakpoints
          - Custom breakpoints: Define your own breakpoints for a more tailored responsive design
 
-##### Search Filter & Result Item Customisation
+#### Search Filter & Result Item Customisation
   - Filter configuration preferences: Manage how your website's content is categorised to configure filters for the search results page.
       - Automated (Recommended): SearchSG uses Machine Learning to automatically tag your website's content based on predefined labels for content types and topics. This tagging system organises pages into two distinct filter groups (Content types; Topics) on the search results page.
       - Manual: Define your own content types and topics by manually labelling each page. [Follow the guide to manually tagging your pages.](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/customisation-search-filter?id=search-filter-amp-result-item-customisation)
@@ -114,7 +112,15 @@ Follow the index guide on how to [create, configure and delete a Search index](/
    - Additional custom filters (optional): You can define up to 5 additional categories to better organise your website's content. These custom categories can then be used to display up to 5 additional filter groups, which visitors can use to refine their search results on your search results page. [Follow the guide to setting up custom filters](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/customisation-search-filter?id=search-filter-amp-result-item-customisation)
 
 
-#### How to disable a Search Bar?
+#### SmartAnswer
+- SmartAnswer leverages Large Language Models (LLMs) to deliver personalised answers to your queries. Drawing from credible sources within SearchSG's search results, it provides accurate and directly relevant information, saving users' time compared to traditional search methods.
+- Note: SmartAnswer is powered by Generative AI, a type of artificial intelligence technology.
+- To configure SmartAnswer, go to `Workspace > Applications > Search Bar > Results page features > SmartAnswer`.
+    - Enable: Displays an AI-generated summary using the top 10 search results for the query, placed above the regular search results. This summary relies solely on your indexed data and includes citations to the original sources.
+    - Disable: Show only standard search results without the AI-generated summary.
+
+
+### How to disable a Search Bar?
 1. Login to Admin Portal
 
 2. Navigate to "Workspace" and select your site from the drop-down list
@@ -130,7 +136,7 @@ Follow the index guide on how to [create, configure and delete a Search index](/
 6. Search bar will be disabled
 ![Disable app](images/application/search_bar/search_bar_disabled.png)
 
-#### How to enable a Search Bar?
+### How to enable a Search Bar?
 1. Login to Admin Portal 
 
 2. Navigate to "Workspace" and select your site from the drop-down list
@@ -158,56 +164,3 @@ Follow the index guide on how to [create, configure and delete a Search index](/
       ![Disable app](images/application/search_bar/index_library.png)
 
       - After selecting the index, follow steps 3 to 5 to enable the Search bar
-
-### Site
-#### How to create a site?
-- The creation of a `Site` is now seamlessly integrated into the `Create Application` flow, allowing it to be developed in parallel with the `Application` for a unified and efficient process.
-
-#### How to edit site settings?
-1. Login to Admin Portal
-
-2. Navigate to "Workspace" and select your site from the drop-down list
-
-3. Click on "Site Settings", you will be brought to the "Site Settings Overview" page
-![Edit site](images/application/site/view_site.png)
-
-4. Click on "Edit site settings", you will be brought to the "Edit site settings" page
-![Edit site](images/application/site/edit_site.png)
-
-5. Click on "Save" after making changes. 
-![Edit site](images/application/site/edit_site_successful.png)
-
-#### How to delete a site?
-1. Login to Admin Portal
-
-2. Navigate to "My Projects"
-
-3. Click on the ![Delete site](images/3dots_icon.png) icon then "Delete site"
-![Delete site](images/application/site/delete_site.png)
-
-4. Click on "Delete" in the pop-up window
-![Delete site](images/application/site/delete_site_confirm.png)
-
-5. The site will be deleted if it has no application
-![Delete site](images/application/site/site_deleted_perm.png)
-   - For site that has active application(s), you are unable to delete. 
-   ![Delete site](images/application/site/unable_delete_site.png)
-
-   - For site that has disabled application(s), the site will only be soft-deleted (disabled) and you will have 30 days to restore it if needed. Note: An email notification will be sent to editor(s) 3 days prior to the site being permanently deleted.
-   ![Delete site](images/application/site/site_soft_deleted.png)
-
-#### How to restore a site?
-- Only the site is soft-deleted (disabled), and you have a 30-day window to restore it if needed.
-
-1. Login to Admin Portal
-
-2. Navigate to "My Projects"
-
-3. Click on "Restore site" 
-![Restore site](images/application/site/restore_site.png)
-
-4. Click on "Restore"
-![Restore site](images/application/site/restore_site_confirm.png)
-
-5. The site will be restored
-![Restore site](images/application/site/site_restored.png)
