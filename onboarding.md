@@ -27,6 +27,6 @@ With your search index established, you can now create an application that utili
 1.  Navigate to **Tenant** page and select **Add New** within the **Applications** section.
 2.  A new search application will be created with the default set of configurations, and a **Client ID** will be generated.
 3.  With the **Client ID**, you can now follow the onboarding steps provided to add the integration script into your website to deploy the search app.
-4.  You may continue to further configure your search application configurations to further customise features and theme within the **Workspace > Application** section.
+4.  You may continue to further configure your search application configurations to further customise features and theme within the **Workspace > Application** section. Refer to [Application Guide](/application-searchbar#configuring-your-search-bar) for detailed steps for configurations.
 
 Once the integration script is added to your site, your search functionality will be live and ready for use!

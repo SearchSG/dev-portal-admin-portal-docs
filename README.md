@@ -32,8 +32,9 @@
       - [How to delete a site?](/application-site#how-to-delete-a-site)
    7.2 [Search Bar Application](/application-searchbar#search-bar-application)
       - [How to create a Search Bar?](/application-searchbar#how-to-create-a-search-bar-application)
-      - [Configuring your Search Bar](/application-searchbar#configuring-your-search-bar-application)
-      - [How to disable a Search Bar?](/application-searchbar#how-to-disable-a-search-bar-application)
+      - [Configuring your Search Bar](/application-searchbar#configuring-your-search-bar)
+      - [How to disable a Search Bar?](/application-searchbar#how-to-disable-a-search-bar)
+      - [How to enable a Search Bar?](/application-searchbar#how-to-enable-a-search-bar)
 8. [Analytics Guide](/analytics)  
    8.1 [How to access the search bar analytics?](/analytics#how-to-access-the-search-bar-analytics)  
 
