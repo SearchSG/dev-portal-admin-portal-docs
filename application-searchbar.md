@@ -1,11 +1,3 @@
-## Application
-
-- A `Site` refers to a website or server-side application that integrates with SearchSG. 
-- It serves as a workspace for multiple applications, such as Search and Recommend, requiring only a one-time integration to enable the use of multiple application features.
-- An `Application` encapsulates all configurations for a specific search / recommend feature deployed on your site. E.g. search bar settings and filter configurations for your search app are managed under 'Applications'. 
-- The creation of a `Site`is seamlessly integrated into the `Create Application` flow, allowing it to be developed in parallel with the `Application` for a unified and efficient process.
-
-
 ## Search Bar Application
 ### How to create a Search Bar Application?
 1. Login to Admin Portal.
@@ -112,12 +104,9 @@ Follow the index guide on how to [create, configure and delete a Search index](/
    - Additional custom filters (optional): You can define up to 5 additional categories to better organise your website's content. These custom categories can then be used to display up to 5 additional filter groups, which visitors can use to refine their search results on your search results page. [Follow the guide to setting up custom filters](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/customisation-search-filter?id=search-filter-amp-result-item-customisation)
 
 
-#### SmartAnswer
+### SmartAnswer
 - SmartAnswer leverages Large Language Models (LLMs) to deliver personalised answers to your queries. Drawing from credible sources within SearchSG's search results, it provides accurate and directly relevant information, saving users' time compared to traditional search methods.
-- Note: SmartAnswer is powered by Generative AI, a type of artificial intelligence technology.
-- To configure SmartAnswer, go to `Workspace > Applications > Search Bar > Results page features > SmartAnswer`.
-    - Enable: Displays an AI-generated summary using the top 10 search results for the query, placed above the regular search results. This summary relies solely on your indexed data and includes citations to the original sources.
-    - Disable: Show only standard search results without the AI-generated summary.
+- See guide to configuring SmartAnswer [here](/application-smartanswer.md).
 
 
 ### How to disable a Search Bar?
