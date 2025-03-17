@@ -37,7 +37,26 @@
     - You will be taken back to the previous page with the newly created data source listed under the "Web data sources" section.
     ![Updated web data sources](images/index/updated_web_data_source.png)
 
-7. Trigger Sync Process to Prepare Index
+7. Setup an API Data Source
+    - This API connector allows agencies to index custom API data that may be protected or not publicly available. Our API connector polls your configured endpoints hourly, to process changes in your content and updates your index automatically.
+    - To add an `API Data Source`, choose "Add new +" within API data source card and proceed to set up the data source.
+    ![API data sources](images/index/index_api_data_source.png)
+
+    - Fill up your API information and click on "Next". Refer our docs to understand [how API Data sources work](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/indexing-features?id=b-api-data-source)
+    ![API data sources](images/index/create_api_data_source.png)
+
+    - Once configured, Data health check on your api will be performed. 
+    ![API data sources](images/index/api_data_source_health_check.png)
+        - If all required data are presented, click on "Add data source" 
+        - If there are missing required data, you can choose to "Fix issues" or "Continue with warnings"
+        ![API data sources](images/index/api_data_source_required_info_missing.png)
+
+    - Click on "Add data source" in the confirmation pop-up window.
+    ![API data sources](images/index/api_data_source_confirm.png)
+    - You will be taken back to the previous page with the newly created data source listed under the "API data sources" section.
+    ![Updated API data sources](images/index/updated_api_data_source.png)
+
+8. Trigger Sync Process to Prepare Index
     - Under "Index overview", the status of the index should be updated to "Pending Sync".
 
     ![Index overview](images/index/index_overview_pending_sync.png)
