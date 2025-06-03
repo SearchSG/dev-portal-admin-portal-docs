@@ -14,7 +14,7 @@
 
 2. Add a New Index
     - Click on "Add new +" within the project card that you want to add your index to.
-    - Enter the title of the index in the pop-up window and click on "Create."
+    - Enter the title of the index in the pop-up window and click on "Create".
     ![Create index](images/index/create_index.png)
 
 4. View Created Index in Index Overview
@@ -91,7 +91,7 @@
 
 ### How to delete the Search Index?
 ***Note: Deleting a search index will remove all previous collected interaction feedback and incremental learning improvements associated with your search index, affecting search relevance.***
-1. Click on "More actions" and then "Delete."
+1. Click on "More actions" and then "Delete".
 ![Delete index](images/index/index_overview_delete.png)
 
 2. Click on "Delete" in the pop-up window.

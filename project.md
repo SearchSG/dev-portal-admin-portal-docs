@@ -5,21 +5,7 @@
 - Add editors into each project to collaborate together. Editors will only be able access the projects they are added to.
 
 ### How to create a project?
-1. Login to Admin Portal.
-
-2. Navigate to "My Projects" and click on "New project +".
-![Create project](images/project/my_projects.png)
-
-3. Fill in the project name and select your agency, then click on "Add new project".
-![Create project](images/project/add_new_project.png)
-
-4. You should see your project created with roles "Owner" and "Editor".
-![Create project](images/project/project_with_no_app.png)
-
-- Owner - Refers to the creator of the project. Cannot be removed by other editors on their project.
-- Editor - Refers to any users that are allowed to modify users and resources associated with the project.
-
-5. You may add or remove Editors of the project via "Manage Editors".
+- A `Project` is created seamlessly during the `Create Application` flow to configure where and how your search and recommend applications will be deployed and integrated to your site.
 
 
 ### How to add a new editor to the project?
@@ -28,23 +14,25 @@
 2. Navigate to "My Projects" and click on "Manage Editors".
 ![Add editor](images/project/editor/project_manage_editor.png)
 
-3. You will be brought to the "Manage Editors" page, where you will see the project owner and existing editors.
+3. You will be brought to the “Manage Editors” page, where you will see the project owner and existing editors.
+- Owner - Refers to the creator of the project. Cannot be removed by other editors on their project.
+- Editor - Refers to any users that are allowed to modify users and resources associated with the project.
 ![Add editor](images/project/editor/manage_editors.png)
 
-4. Click on "Add Editor(s) +."
+4. Click on "Add Editor(s) +".
 ![Add editor](images/project/editor/add_editors.png)
 
-5. Enter the email address of the editor(s) and click on "Add."
+5. Enter the email address of the editor(s) and click on "Add".
 
-6. The newly added editor(s) will appear in the list under "Manage Editors."
+6. The newly added editor(s) will appear in the list under "Manage Editors".
 ![Add editor](images/project/editor/editors_added.png)
 
 ### How to remove the editor from the project?
 1. Login to Admin Portal.
 
-2. Navigate to "My Projects" and click on "Manage Project."
+2. Navigate to "My Projects" and click on "Manage Project".
 
-3. Click on the ![Remove editor](images/3dots_icon.png) icon and select "Remove from project." Note: The editor with ownership of the project cannot be removed. Transfer ownership first if necessary.
+3. Click on the ![Remove editor](images/3dots_icon.png) icon and select "Remove from project". Note: The editor with ownership of the project cannot be removed. Transfer ownership first if necessary.
 ![Remove editor](images/project/editor/remove_editor.png)
 
 4. Click on "Remove Editor" in the pop-up window.
@@ -56,8 +44,8 @@
 
 ### How to transfer the ownership of the project to another editor?
 1. Login to Admin Portal.
-2. Navigate to "My Projects" and click on "Manage Editors."
-3. Click on the ![Transfer ownership](images/3dots_icon.png) icon and select "Assign as owner." This option is only available if you are the project owner.
+2. Navigate to "My Projects" and click on "Manage Editors".
+3. Click on the ![Transfer ownership](images/3dots_icon.png) icon and select "Assign as owner". This option is only available if you are the project owner.
 ![Transfer ownership](images/project/editor/assign_editor_as_owner.png)
 4. Click on "Proceed" in the pop-up window.
 ![Transfer ownership](images/project/editor/assign_editor_as_owner_confirmation.png)
