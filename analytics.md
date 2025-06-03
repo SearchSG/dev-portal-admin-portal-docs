@@ -4,7 +4,9 @@
 
 1. Login to the Admin Portal.
 
-2. Under `Workspace`, select the site in the site drop-down list and click on the `Analytics` tabs - `Search Usage`, `Search Analytics` or `Query Insight`.
+2. Under `Analytics`, select the site in the site selection dropdown and click on `Search usage`, `Query insights` or `Search result insights`.
+    - The site selection dropdown prioritizes the sites where you are the `owner` or `editor` and groups them under `My sites` at the top.
+    - The other production sites are grouped under `All sites` in alphabetical order.
 
 3. By default, analytics data displayed will be for the last 30 days. You can make use of the date range filter to look for analytics within a specific date range.
    ![Search Bar Analytics](images/analytics/workspace.png)
@@ -40,38 +42,38 @@ The following key search analytics metrics are tracked and displayed to provide 
 
 1. Login to the Admin Portal.
 
-2. Under `Workspace`, select the site in the site drop-down list and click on the `Analytics` then `SmartAnswer`.
+2. Under `Analytics`, select the site in the site selection dropdown and click on `SmartAnswer insights`.
 
 3. By default, analytics data displayed will be for the last 30 days. You can make use of the date range filter to look for analytics within a specific date range.
    ![SmartAnswer Analytics](images/analytics/smart_answer_analytics.png)
 
 ### SmartAnswer Analytics Metrics
 
-1. **Total No. of SmartAnswers Triggered**
+1. **Total no. of SmartAnswers generated**
     - Definition: The cumulative count of SmartAnswers provided by SearchSG over a specified period.
     - Purpose: Indicates the SmartAnswer's usage and adoption.
 
-2. **Total Engagement (Clicked on 'Show more')**
-    - Definition: The total number of times users click the 'Show More' option for SmartAnswers.
-    - Purpose: Shows user interest and indicates how compelling SmartAnswers are. A higher count suggests the content is relevant enough for users to seek additional details.
-
-3. **Engagement Rate (Engagement/Total SmartAnswers triggered)**
+2. **Engagement Rate**
     - Definition: The percentage of SmartAnswers that result in user engagement when users click 'Show more'.
     - Purpose: Measures how effectively your SmartAnswers capture user attention. A higher rate indicates strong relevance and usefulness.
 
-4. **Click-through Rate (to source)**
-    - Definition: The percentage of users who click on citations within the SmartAnswers out of the total number of users who viewed the SmartAnswers.
-    - Purpose: Evaluates user trust and interest in the sources provided by SmartAnswers.
+3. **Total Engagement (Clicked on 'Show more')**
+    - Definition: The total number of times users click the 'Show More' option for SmartAnswers.
+    - Purpose: Shows user interest and indicates how compelling SmartAnswers are. A higher count suggests the content is relevant enough for users to seek additional details.
 
 4. **Usage Rating (Positive Rating / Total Rating)**
     - Definition: The ratio of positive ratings (thumbs up) to the total ratings received for SmartAnswers.
     - Purpose: Indicates how satisfied users are with the accuracy and helpfulness of the SmartAnswers.
 
-5. **Search Query Percentage with no SmartAnswers**
+5. **Click-through Rate (to source)**
+    - Definition: The percentage of users who click on citations within the SmartAnswers out of the total number of users who viewed the SmartAnswers.
+    - Purpose: Evaluates user trust and interest in the sources provided by SmartAnswers.
+
+6. **Searches with no SmartAnswers generated**
     - Definition: The percentage of search queries that did not successfully generate a SmartAnswer.
     - Purpose: Identifies whether SmartAnswers was able to effectively find and generate answers for user queries. Highlights potential coverage gaps in your content or indexing. A higher percentage means more missed opportunities to answer user queries directly.
 
-6. **Search Terms with no SmartAnswers**
+7. **Top search queries with no SmartAnswers**
     - Definition: These are the search terms that currently do not yield a SmartAnswer result.
     - Purpose: Identifies exact user queries for which new or revised content may be needed to address their needs.
 
