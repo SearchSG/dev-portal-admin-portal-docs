@@ -5,6 +5,9 @@
 - manage search configurations
 - view search usage analytics data for your search applications
 
+Note: If your website was onboarded to SearchSG via `Isomer Next`, you can only view analytics in the admin portal.
+
+If you encounter any issues while using, please raise an incident through our [Contact Us form](https://go.gov.sg/searchsg-request).
 
 ## Table of Contents
 1. [Key Concepts of SearchSG Admin Portal](/concepts)
@@ -38,4 +41,5 @@
    7.3 [SmartAnswer Feature](/application-smartanswer)
 8. [Analytics Guide](/analytics)  
    8.1 [How to access the search bar analytics?](/analytics#how-to-access-the-search-bar-analytics)  
+   8.2 [How to access the SmartAnswer Analytics?](/analytics#how-to-access-the-smartanswer-analytics)
 

@@ -77,3 +77,57 @@ The following key search analytics metrics are tracked and displayed to provide 
     - Definition: These are the search terms that currently do not yield a SmartAnswer result.
     - Purpose: Identifies exact user queries for which new or revised content may be needed to address their needs.
 
+## SmartRecommend Analytics
+
+### How to access the SmartRecommend Analytics
+
+1. Login to the Admin Portal.
+2. Under `Analytics`, select the site in the site selection dropdown and click on `SmartRecommend analytics`. **Note**: `SmartRecommend Analytics` are available to sites with an active SmartRecommend banner. 
+3. By default, analytics data displayed will be for the last 30 days. You can make use of the date range filter to look for analytics within a specific date range. 
+   ![SmartRecommend Analytics](images/analytics/smart_recommend_analytics.png)
+
+### SmartRecommend Analytics Metrics
+
+1. **Total no. of sessions**
+    - Definition: The total number of sessions where the SmartRecommend banner is loaded.
+    - Purpose: Measures how many web sessions include the SmartRecommend banner.
+
+2. **No. of banner views**
+    - Definition: The number of instances where a loaded SmartRecommend banner enters the user’s viewport in the browser.
+    - Purpose: Measures how many users see the SmartRecommend banner while using your website. This reflects how visible or discoverable the banner placement is on the page to your users.
+
+3. **No of recommendation clicks**
+    - Definition: The number of users click on recommended links within the SmartRecommend banner.
+    - Purpose: Measures direct user engagement with recommendations shown.
+
+4. **Total no. of sessions with at least 1 banner view**
+    - Definition: The number of sessions where at least 1 SmartRecommend banner enters the visitor's viewport.
+    - Purpose: Measures how many sessions include at least 1 visible recommendation banner. This reflects how visible or discoverable the banner placement is on the page to your users.
+
+5. **Total no. of sessions with at least 1 recommendation click**
+    - Definition: The number of recommend sessions where the user clicks at least 1 recommended link.
+    - Purpose: Measures how many sessions have successful click-through interactions with recommendation links shown.
+
+6. **Average session click-through rate (CTR) (Total clicks / Total banner views)**
+    - Definition: The percentage of recommendation clicks out of total banner views.
+    - Purpose: Measures how well recommended links match user intent.
+
+7. **Click-through rate (CTR) Session (Total no. of sessions with clicks / total no. of sessions with banner view)**
+    - Definition: The percentage of user sessions where at least 1 recommendation was clicked out of all sessions where recommendations were visible.
+    - Purpose: Measures how many recommendation sessions have click-through on at least 1 recommendations shown. Indicates relevance and usefulness of recommendations displayed.
+
+8. **Overall impressions and engagement - Trend over time**
+    - Definition: Tracking of banner views, clicks, and CTR across all banners.
+    - Purpose: Monitors overall recommendation performance and trends across all banners.
+
+9. **Banner-level performance analytics**
+    - Definition: Performance metrics (displays, clicks, CTR) segmented by individual SmartRecommend banners.
+    - Purpose: Compares display counts and click-through rates across selected banner(s).
+
+10. **Page-level performance metrics**
+    - Definition: Performance metrics (displays, clicks, and CTR) segmented by individual webpage.
+    - Purpose: Tracks impressions and engagement metrics for each webpage where selected banner(s) appears.
+
+11. **Link-level performance metrics**
+    - Definition: Clicks segmented for each recommended URL within selected banners.
+    - Purpose: Tracks click performance for each recommended URL within selected banner(s).
