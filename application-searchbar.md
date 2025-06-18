@@ -1,6 +1,6 @@
-## Search Bar Application
+## Search Bar
 
-### How to create a Search Bar Application?
+### How to create a Search Bar?
 
 1. Login to Admin Portal.
 
@@ -65,7 +65,9 @@ Follow the index guide on how to [create, configure and delete a Search index](/
 
 1. Search bar features
 
-    - Placeholder text: Customise the text displayed in the search bar before a user types.
+    - Placeholder text: Customise the text displayed in the search bar
+      - before a user types.
+      - on the search results page.
 
     - Quick links: Control whether you want to show suggested pages when you activate the search bar.
 
@@ -80,13 +82,12 @@ Follow the index guide on how to [create, configure and delete a Search index](/
 
 2. Results page features
 
-    - Whole-of-Government search scope:
-
-        - Enable: Give users the option to search across all government websites for more comprehensive results.
-        - Disable: Limit search within your site. All results shown will only be from your site.
+    - Search scope:
+      - Enable BOTH agency and Whole-of-Government search: Allow users to choose between searching your agency site or across all government websites.
+      - Enable Whole-of-Government search only: Allow users to search across all government websites only.
+      - Enable agency search only: Limit search results to only show content from your agency site.
 
     - Default search results sorting order:
-
         - Sort by Relevance: Sort results based on relevance, based on results that best match the search terms.
         - Sort by Date: Most recently updated results appear first.
 
