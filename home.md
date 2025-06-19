@@ -33,7 +33,7 @@ If you encounter any issues while using, please raise an incident through our [C
       - [How to create a site?](/application-site#how-to-create-a-site)
       - [How to edit site settings?](/application-site#how-to-edit-site-settings)
       - [How to delete a site?](/application-site#how-to-delete-a-site)
-   7.2 [Search Bar Application](/application-searchbar#search-bar-application)
+   7.2 [Search Bar](/application-searchbar#search-bar)
       - [How to create a Search Bar?](/application-searchbar#how-to-create-a-search-bar-application)
       - [Configuring your Search Bar](/application-searchbar#configuring-your-search-bar)
       - [How to disable a Search Bar?](/application-searchbar#how-to-disable-a-search-bar)
@@ -41,5 +41,5 @@ If you encounter any issues while using, please raise an incident through our [C
    7.3 [SmartAnswer Feature](/application-smartanswer)
 8. [Analytics Guide](/analytics)  
    8.1 [How to access the search bar analytics?](/analytics#how-to-access-the-search-bar-analytics)  
-   8.2 [How to access the SmartAnswer Analytics?](/analytics#how-to-access-the-smartanswer-analytics)
-
+   8.2 [How to access the SmartAnswer analytics?](/analytics#how-to-access-the-smartanswer-analytics)
+   8.3 [How to access the SmartRecommend analytics?](/analytics#how-to-access-the-smartrecommend-analytics)
