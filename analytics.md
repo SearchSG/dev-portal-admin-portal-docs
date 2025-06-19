@@ -45,7 +45,7 @@ The following key search analytics metrics are tracked and displayed to provide 
 2. Under `Analytics`, select the site in the site selection dropdown and click on `SmartAnswer insights`.
 
 3. By default, analytics data displayed will be for the last 30 days. You can make use of the date range filter to look for analytics within a specific date range.
-   ![SmartAnswer Analytics](images/analytics/smart_answer_analytics.png)
+   ![SmartAnswer analytics](images/analytics/smart_answer_analytics.png)
 
 ### SmartAnswer Analytics Metrics
 
@@ -79,12 +79,12 @@ The following key search analytics metrics are tracked and displayed to provide 
 
 ## SmartRecommend Analytics
 
-### How to access the SmartRecommend Analytics
+### How to access the SmartRecommend analytics
 
 1. Login to the Admin Portal.
-2. Under `Analytics`, select the site in the site selection dropdown and click on `SmartRecommend analytics`. **Note**: `SmartRecommend Analytics` are available to sites with an active SmartRecommend banner. 
+2. Under `Analytics`, select the site in the site selection dropdown and click on `SmartRecommend analytics`. **Note**: `SmartRecommend analytics` are available to sites with an active SmartRecommend banner. 
 3. By default, analytics data displayed will be for the last 30 days. You can make use of the date range filter to look for analytics within a specific date range. 
-   ![SmartRecommend Analytics](images/analytics/smart_recommend_analytics.png)
+   ![SmartRecommend analytics](images/analytics/smart_recommend_analytics.png)
 
 ### SmartRecommend Analytics Metrics
 
