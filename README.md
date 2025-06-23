@@ -5,16 +5,19 @@
 - manage search configurations
 - view search usage analytics data for your search applications
 
+Note: If your website was onboarded to SearchSG via `Isomer Next`, you can only view analytics in the admin portal.
+
+If you encounter any issues while using, please raise an incident through our [Contact Us form](https://go.gov.sg/searchsg-request).
 
 ## Table of Contents
-1. [Key Concepts of SearchSG Admin Portal](/concepts)
-2. [Onboarding Guide](/onboarding)
+1. [Key Concepts of SearchSG Admin Portal](/concepts)  
+2. [Onboarding Guide](/onboarding)  
 3. [Authentication Guide](/authentication#authentication)  
    3.1 [How to login to Admin Portal?](/authentication#how-to-login-to-admin-portal)  
    3.2 [How to sign up to TechPass?](/authentication#how-to-sign-up-to-techpass)  
    3.3 [How to login out from Admin Portal?](/authentication#how-to-login-out-from-admin-portal)  
 4. [User Profile Guide](/user#user-profile)  
-   4.1 [How to update the user profile?](/user#how-to-update-your-user-profile)
+   4.1 [How to update the user profile?](/user#how-to-update-your-user-profile)  
 5. [Project Guide](/project#project)  
    5.1 [How to create a project?](/project#how-to-create-a-project)  
    5.2 [How to create an application?](/project#how-to-create-an-application)  
@@ -26,16 +29,17 @@
    6.2 [Optional Configurations for your Search Index](/index#optional-configurations-for-your-search-index)  
    6.3 [How to delete a Search Index](/index#how-to-delete-the-search-index)  
 7. [Application Guide](/application-site)  
-   7.1  [Site](/application-site#site)
-      - [How to create a site?](/application-site#how-to-create-a-site)
-      - [How to edit site settings?](/application-site#how-to-edit-site-settings)
-      - [How to delete a site?](/application-site#how-to-delete-a-site)
-   7.2 [Search Bar Application](/application-searchbar#search-bar-application)
-      - [How to create a Search Bar?](/application-searchbar#how-to-create-a-search-bar-application)
-      - [Configuring your Search Bar](/application-searchbar#configuring-your-search-bar)
-      - [How to disable a Search Bar?](/application-searchbar#how-to-disable-a-search-bar)
-      - [How to enable a Search Bar?](/application-searchbar#how-to-enable-a-search-bar)
-   7.3 [SmartAnswer Feature](/application-smartanswer)
+   7.1  [Site](/application-site#site)  
+      - [How to create a site?](/application-site#how-to-create-a-site)  
+      - [How to edit site settings?](/application-site#how-to-edit-site-settings)  
+      - [How to delete a site?](/application-site#how-to-delete-a-site)  
+   7.2 [Search Bar](/application-searchbar#search-bar)  
+      - [How to create a Search Bar?](/application-searchbar#how-to-create-a-search-bar-application)  
+      - [Configuring your Search Bar](/application-searchbar#configuring-your-search-bar)  
+      - [How to disable a Search Bar?](/application-searchbar#how-to-disable-a-search-bar)  
+      - [How to enable a Search Bar?](/application-searchbar#how-to-enable-a-search-bar)  
+   7.3 [SmartAnswer Feature](/application-smartanswer)  
 8. [Analytics Guide](/analytics)  
    8.1 [How to access the search bar analytics?](/analytics#how-to-access-the-search-bar-analytics)  
-
+   8.2 [How to access the SmartAnswer analytics?](/analytics#how-to-access-the-smartanswer-analytics)  
+   8.3 [How to access the SmartRecommend analytics?](/analytics#how-to-access-the-smartrecommend-analytics)  

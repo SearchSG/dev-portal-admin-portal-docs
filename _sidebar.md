@@ -5,7 +5,7 @@
 - [Indexes](index.md)  
 - [Applications](application.md)  
     - [Site](/application-site.md)
-    - [Search Bar Application](application-searchbar.md)
+    - [Search Bar](application-searchbar.md)
         - [SmartAnswer Feature](application-smartanswer.md)
 - [Analytics](analytics.md)  
 - [User Profile](user.md)  
