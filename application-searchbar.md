@@ -8,7 +8,7 @@
    ![Create app](images/application/search_bar/add_search_app.png)
 
 3. Choose the site you would like to host the search bar then click next.
-   ![Create app](images/application/search_bar/define_host_site.png)
+    ![Create app](images/application/search_bar/define_host_site.png)
 
     - If you would like to host the search bar on your existing site, select the site from the drop-down list
 
@@ -26,7 +26,7 @@
       ![Create app](images/application/search_bar/setup_index.png)
     - If you would like to create a new index, select the option "Create a new index" and enter the index name and website to include in the index. Whitelist and blacklist domains are optional.
       ![Create app](images/application/search_bar/search_bar_create_index.png)
-        - If only API data source(s) are being used., tick the option "I am using API data source(s) only".
+        - If only API data source(s) are being used, tick the option "I am using API data source(s) only".
           ![Create app](images/application/search_bar/search_bar_create_index_api_data_source.png)
 
 5. Add code snippet and click on "View dashboard"
@@ -36,7 +36,7 @@
     - If the option "I am using API data source(s) only" is selected in the previous step, in addition to following the guide to complete the integration with your website, you must also:
         - Click on "Add API data source".  
           ![Create app](images/application/search_bar/complete_setup_API_data_source.png)
-        - Complete the creation of the index on the "Index Overview" - "Data Sources" page. Follow Step 7 in the guide on [create a Search index](/index#how-to-create-a-search-index) to proceed.
+        - Complete the creation of the index on the "Index Overview" - "Data Sources" page. Follow Step 7 in the guide on [create a Search index](index#how-to-create-a-search-index) to proceed.
           ![Create app](images/application/search_bar/search_bar_index_overview.png)
 
 6. Click on "View dashboard" to access the dashboard page.
@@ -51,7 +51,7 @@ Once your search Bar application is created, you can customise your search appli
 1. Search Bar Placement
 
     - Enter the HTML Id of the container div element where you would like the search bar component to be rendered on your website.
-    - Follow the onboarding guide on how to [add the searchbar widget to your website](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/getting-started?id=step-2-adding-searchbar-widget-to-your-site).
+    - Follow the onboarding guide on how to [add the searchbar widget to your website](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-search-bar?id=step-2-adding-searchbar-widget-to-your-site).
 
 2. Search Results Page Integration
     - Control whether you would like the search results page to be embedded within your website or redirected to a standalone search results page hosted on search.gov.sg domain.
@@ -59,7 +59,7 @@ Once your search Bar application is created, you can customise your search appli
 
 #### Advanced Setup
 
-Follow the index guide on how to [create, configure and delete a Search index](/index)
+Follow the index guide on how to [create, configure and delete a Search index](index)
 
 #### UI Customization
 
@@ -132,7 +132,7 @@ Follow the index guide on how to [create, configure and delete a Search index](/
 ### SmartAnswer
 
 -   SmartAnswer leverages Large Language Models (LLMs) to deliver personalised answers to your queries. Drawing from credible sources within SearchSG's search results, it provides accurate and directly relevant information, saving users' time compared to traditional search methods.
--   See guide to configuring SmartAnswer [here](/application-smartanswer.md).
+-   See guide to configuring SmartAnswer [here](application-smartanswer#smartanswer).
 
 ### How to disable a Search Bar?
 
@@ -174,7 +174,7 @@ Follow the index guide on how to [create, configure and delete a Search index](/
         - You will be brought to the page to select index to use for the Search bar
           ![Disable app](images/application/search_bar/enable_search_bar_select_index.png)
 
-        - After selecing the index, you will be brought to the "Index Overview" page to review or make amendments on the index if needed
+        - After selecting the index, you will be brought to the "Index Overview" page to review or make amendments on the index if needed
           ![Disable app](images/application/search_bar/enable_search_bar_index_overview.png)
 
         - If you would like to create a new index, click on "Create an index in the Index Library" and you will be brought to "Index Library"

@@ -12,4 +12,5 @@ The email address in your profile will be used for email notifications regarding
 3. Update the necessary information and click on “Save Changes”
    - **Editable Fields**: Agency, Job Category, Job Title.
    - **Non-editable Fields**: First Name, Last Name, Mobile Number, and Email Address (these fields are pulled from the TechPass portal).
-![Update user profile](images/user/update_profile.png)
+
+   ![Update user profile](images/user/update_profile.png)
