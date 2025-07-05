@@ -50,7 +50,7 @@
     - Click "Change rules priority"
     - In the pop-up window, reorder the rules to set their priority  
 
-![Create app](images/application/smart_recommend/reorder_rules.png)
+    ![Create app](images/application/smart_recommend/reorder_rules.png)
 
 7. Set up banner styling and click next.
     ![Create app](images/application/smart_recommend/banner_style_preview.png)
