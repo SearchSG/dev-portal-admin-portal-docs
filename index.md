@@ -2,9 +2,16 @@
 
 - `Index` - An index serves as a repository for your documents, acting as a searchable knowledge base. It can contain one or more data sources that sync your data with the SearchSG platform.
 
+- `Index Deactivation Policy` - 
+    - For Indexes Not Connected to Any Apps: If an index hasn't been updated in over 30 days
+    - For Indexes Connected to Apps:
+        - None of the connected apps are currently active, and
+        - None of these apps have been updated in over 30 days
+
 - `Data Sources` - Data sources are connectors that facilitate data syncing and indexing, either through web scraping or by connecting to your APIs.
     -   **Web Data Source**: Utilize our web crawlers to scrape publicly accessible websites, automatically crawling and re-indexing data on a daily basis.
     -   **API Data Source**: Connect to your APIs to poll for data updates, enabling automatic updates and re-indexing on an hourly basis.
+    - **Push API Data Source**: Push your updated content and files by sending data to our API endpoints at your preferred timing.
 
 
 
@@ -17,15 +24,15 @@
     - Enter the title of the index in the pop-up window and click on "Create".
     ![Create index](images/index/create_index.png)
 
-4. View Created Index in Index Overview
+3. View Created Index in Index Overview
     - The created index will have a status that indicates "Action Required: Add Data Source" on the Index overview page after creation.
     ![Index overview](images/index/index_overview.png)
 
-5. Add a Data Source
+4. Add a Data Source
     - Click on "Data sources" tab and you will be taken to the data source page.
     ![Data sources](images/index/index_data_source.png)
 
-6. Setup a Web Data Source
+5. Setup a Web Data Source
     - To add a `Web Data Source`, choose "Add new +" within Web data source card and proceed to set up the data source.
     ![Web data sources](images/index/index_web_data_source.png)
     - Select your website domain to index from a list of websites that SearchSG crawls. If you cannot locate your domain, click on "Can’t find your domain?".
@@ -37,7 +44,7 @@
     - You will be taken back to the previous page with the newly created data source listed under the "Web data sources" section.
     ![Updated web data sources](images/index/updated_web_data_source.png)
 
-7. Setup an API Data Source
+6. Setup an API Data Source
     - This API connector allows agencies to index custom API data that may be protected or not publicly available. Our API connector polls your configured endpoints hourly, to process changes in your content and updates your index automatically.
     - To add an `API Data Source`, choose "Add new +" within API data source card and proceed to set up the data source.
     ![API data sources](images/index/index_api_data_source.png)
@@ -55,6 +62,16 @@
     ![API data sources](images/index/api_data_source_confirm.png)
     - You will be taken back to the previous page with the newly created data source listed under the "API data sources" section.
     ![Updated API data sources](images/index/updated_api_data_source.png)
+
+7. Setup a Push API Data Source
+    - The `Push API Data Source` allows you to proactively send updated content and files to SearchSG whenever your data changes. With near real-time synchronization, it bypasses the need for polling, and it’s especially useful for websites with time-sensitive data.
+    - For enabling the `Push API Data Source`, toggle the switch button. A confirmation toast message - "Push API data source enabled" will appear upon successful activation.
+    ![Push API data sources](images/index/push_api_data_source_toggle.png)
+    - Only the last 5 pushes are displayed including details on the number of documents added or deleted.
+    - "No error detected" indicates a successful API call.
+    - If errors occur, download the error report using the provided link.
+    ![Push API data sources](images/index/push_api_data_source_error_report.png)
+    - When disabled, previously synced content and files are preserved, so you can re-enable the data source later without data loss.
 
 8. Trigger Sync Process to Prepare Index
     - Under "Index overview", the status of the index should be updated to "Pending Sync".
