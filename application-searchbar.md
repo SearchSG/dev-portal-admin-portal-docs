@@ -119,20 +119,20 @@ Follow the index guide on how to [create, configure and delete a Search index](i
 
 #### Search Filter & Result Item Customisation
 
--   Filter configuration preferences: Manage how your website's content is categorised to configure filters for the search results page.
+- Filter configuration preferences: Manage how your website's content is categorised to configure filters for the search results page.
 
-    -   Automated (Recommended): SearchSG uses Machine Learning to automatically tag your website's content based on predefined labels for content types and topics. This tagging system organises pages into two distinct filter groups (Content types; Topics) on the search results page.
-    -   Manual: Define your own content types and topics by manually labelling each page. [Follow the guide to manually tagging your pages.](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/customisation-search-filter?id=search-filter-amp-result-item-customisation)
+    - Automated (Recommended): SearchSG uses Machine Learning to automatically tag your website's content based on predefined labels for content types and topics. This tagging system organises pages into two distinct filter groups (Content types; Topics) on the search results page.
+    - Manual: Define your own content types and topics by manually labelling each page. [Follow the guide to manually tagging your pages.](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/customisation-search-filter?id=search-filter-amp-result-item-customisation)
 
--   Additional keyword filters (optional): Adjust how filter labels appear and choose which filters to hide or show based on your preferences. <br>
+- Additional keyword filters (optional): Adjust how filter labels appear and choose which filters to hide or show based on your preferences. <br>
     The keywords filter allows visitors to narrow down search results by selecting specific keywords they are looking for (e.g., Baby bonus, Housing grant), ensuring more targeted and relevant search outcomes.
 
--   Additional custom filters (optional): You can define up to 5 additional categories to better organise your website's content. These custom categories can then be used to display up to 5 additional filter groups, which visitors can use to refine their search results on your search results page. [Follow the guide to setting up custom filters](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/customisation-search-filter?id=search-filter-amp-result-item-customisation)
+- Additional custom filters (optional): You can define up to 5 additional categories to better organise your website's content. These custom categories can then be used to display up to 5 additional filter groups, which visitors can use to refine their search results on your search results page. [Follow the guide to setting up custom filters](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/customisation-search-filter?id=search-filter-amp-result-item-customisation)
 
 ### SmartAnswer
 
--   SmartAnswer leverages Large Language Models (LLMs) to deliver personalised answers to your queries. Drawing from credible sources within SearchSG's search results, it provides accurate and directly relevant information, saving users' time compared to traditional search methods.
--   See guide to configuring SmartAnswer [here](application-smartanswer#smartanswer).
+- SmartAnswer leverages Large Language Models (LLMs) to deliver personalised answers to your queries. Drawing from credible sources within SearchSG's search results, it provides accurate and directly relevant information, saving users' time compared to traditional search methods.
+- See guide to configuring SmartAnswer [here](application-smartanswer#smartanswer).
 
 ### How to disable a Search Bar?
 
