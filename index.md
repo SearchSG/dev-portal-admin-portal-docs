@@ -9,8 +9,8 @@
         - None of these apps have been updated in over 30 days
 
 - `Data Sources` - Data sources are connectors that facilitate data syncing and indexing, either through web scraping or by connecting to your APIs.
-    -   **Web Data Source**: Utilize our web crawlers to scrape publicly accessible websites, automatically crawling and re-indexing data on a daily basis.
-    -   **API Data Source**: Connect to your APIs to poll for data updates, enabling automatic updates and re-indexing on an hourly basis.
+    - **Web Data Source**: Utilize our web crawlers to scrape publicly accessible websites, automatically crawling and re-indexing data on a daily basis.
+    - **API Data Source**: Connect to your APIs to poll for data updates, enabling automatic updates and re-indexing on an hourly basis.
     - **Push API Data Source**: Push your updated content and files by sending data to our API endpoints at your preferred timing.
 
 
@@ -67,9 +67,9 @@
     - The `Push API Data Source` allows you to proactively send updated content and files to SearchSG whenever your data changes. With near real-time synchronization, it bypasses the need for polling, and it’s especially useful for websites with time-sensitive data.
     - For enabling the `Push API Data Source`, toggle the switch button. A confirmation toast message - "Push API data source enabled" will appear upon successful activation.
     ![Push API data sources](images/index/push_api_data_source_toggle.png)
-    - Only the last 5 pushes are displayed including details on the number of documents added or deleted.
+    - Only the latest 5 pushes within the past 7 days are displayed, including details on the number of documents added or deleted. For example, if only 1 push happened within the past 7 days, just that push will appear.
     - "No error detected" indicates a successful API call.
-    - If errors occur, download the error report using the provided link.
+    - If errors occur, download the error report using the provided link. **Note**: Error report downloads will be available in an upcoming release.
     ![Push API data sources](images/index/push_api_data_source_error_report.png)
     - When disabled, previously synced content and files are preserved, so you can re-enable the data source later without data loss.
 
