@@ -22,12 +22,12 @@ For example, if you create an index in the “SearchSG” project, you can test 
 
 ### Sites
 
-- A site refers to a website or server-side application that integrates with SearchSG. 
+- A site refers to a website or server-side application that integrates with SearchSG.
 - It serves as a workspace for multiple applications, such as Search and Recommend, requiring only a one-time integration to enable the use of multiple application features.
 
 ### Applications
 
-- An application encapsulates all configurations for a specific search / recommend feature deployed on your site. 
+- An application encapsulates all configurations for a specific search / recommend feature deployed on your site.
     - Example: search bar settings and filter configurations for your search app are managed under 'Applications'.
 
 

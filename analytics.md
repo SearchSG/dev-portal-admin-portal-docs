@@ -82,9 +82,9 @@ The following key search analytics metrics are tracked and displayed to provide 
 ### How to access the SmartRecommend analytics
 
 1. Login to the Admin Portal.
-2. Under `Analytics`, select the site in the site selection dropdown and click on `SmartRecommend analytics`. **Note**: `SmartRecommend analytics` are available to sites with an active SmartRecommend banner. 
-3. By default, analytics data displayed will be for the last 30 days. You can make use of the date range filter to look for analytics within a specific date range. 
-   ![SmartRecommend analytics](images/analytics/smart_recommend_analytics.png)
+2. Under `Analytics`, select the site in the site selection dropdown and click on `SmartRecommend analytics`. **Note**: `SmartRecommend analytics` are available to sites with an active SmartRecommend banner.
+3. By default, analytics data displayed will be for the last 30 days. You can make use of the date range filter to look for analytics within a specific date range.
+![SmartRecommend analytics](images/analytics/smart_recommend_analytics.png)
 
 ### SmartRecommend Analytics Metrics
 

@@ -27,9 +27,9 @@
         - Track only the most recent page viewed
         - Track all pages viewed in the past 6 months
     - **Banner Layout**: Select one layout (styling can be adjusted later, but the layout can’t be changed):
-        - Link Banner
-        - Horizontally-Stacked Card Banner
-        - Vertically-Stacked Card Banner
+        - Link Banner (supports up to 6 links)
+        - Horizontally-Stacked Card Banner (supports up to 4 cards)
+        - Vertically-Stacked Card Banner (supports up to 4 cards)
 
 5. Define your audience targeting rules then click next.
     ![Create app](images/application/smart_recommend/create_new_rule.png)
@@ -39,16 +39,18 @@
         - Always Active – The rule remains active as long as the banner is enabled.
         - Custom Date Range – Specify start and end dates for the rule’s activation.
     - **Banner Display Title**: This is the visible title users will see on the banner.
-    - **Recommendation Links**: Add up to 6 links.
+    - **Recommendation Links**:
+        - When **Link Banner** is selected in the previous step, you can add up to 6 links.
+        - When **Card Banner** is selected, you can add up to 4 links.
     - **Audience Control**: Define who can see the banner by setting targeting rules based on:
         - Visitor type (based on browsing activity. e.g., All visitors, First-time visitors only)
         - Location (e.g., Any country, Singapore only)
 
 6. Change rules priority then click next.
 
-    If you have multiple rules, you may reorder them to set their priority (_**optional**_). 
+    If you have multiple rules, you may reorder them to set their priority (***optional***).
     - Click "Change rules priority"
-    - In the pop-up window, reorder the rules to set their priority  
+    - In the pop-up window, reorder the rules to set their priority
 
     ![Create app](images/application/smart_recommend/reorder_rules.png)
 
@@ -66,7 +68,11 @@
 
     ![Create app](images/application/smart_recommend/banner_placement.png)
     ![Create app](images/application/smart_recommend/add_banner_placement.png)
-    - Follow the [rules](application-smartrecommend#banner-placement-rules) to specify your banner placement. 
+    - Follow the [rules](application-smartrecommend#banner-placement-rules) to specify your banner placement.
+    - Follow the options below to define the banner position on your page:
+        - Auto-generated HTML marker: choose this option if you don’t have an existing recommendation banner on your webpage. A unique element ID will be generated automatically for you to add to your new html div element.
+        - Custom HTML marker: choose this option if you intend to replace an existing banner on your webpage.
+        **Note:** The HTML marker must be unique. Validation also applies to banners in `disabled` status.
     - Follow the [steps](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-smartrecommend?id=onboarding-for-smartrecommend) for detailed instructions to complete your onboarding.
 
 9. Click on “View my SmartRecommend banners” to access your banner listing page.
@@ -76,14 +82,20 @@
 
 ### Banner Placement Rules
 
-1. **Add banner to these pages:**<br>
-Enter the URLs (within your domain) where the banner should appear.<br>
-    a. Use patterns like `/news/*` to display the banner on all subpages.
+1. **Add banner to these pages:**
+    Enter the URLs (within your domain) where the banner should appear. You can:
+    - Enter a full URL to display the banner on a specific page (e.g. `https://search.gov.sg/news/press-release-2024`)
+    - Use a wildcard pattern to display the banner on all subpages (e.g. `https://search.gov.sg/news/*`)
 
-2. **Exclude these pages (_optional_):**  
+    **Rules:**
+    - Enter one URL per line
+    - Duplicate URLs are not allowed
+    - The domain of each URL must match your hosting URL
+
+2. **Exclude these pages (_optional_):**<br>
 Specify any URLs where the banner should not appear even if they match the above rules.
 
-### How to delete SmartRecommend banner? 
+### How to delete SmartRecommend banner?
 
 1. Login to Admin Portal
 

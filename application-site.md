@@ -13,7 +13,7 @@
 4. Click on "Edit site settings", you will be brought to the "Edit site settings" page
 ![Edit site](images/application/site/edit_site.png)
 
-5. Click on "Save" after making changes. 
+5. Click on "Save" after making changes.
 ![Edit site](images/application/site/edit_site_successful.png)
 
 ### How to delete a site?
@@ -31,7 +31,7 @@ Note: A site can only be deleted when all search and recommend applications with
 
 5. The site will be deleted if it has no application
 ![Delete site](images/application/site/site_deleted_perm.png)
-   - For site that has active application(s), you are unable to delete. 
+   - For site that has active application(s), you are unable to delete.
    ![Delete site](images/application/site/unable_delete_site.png)
 
    - For site that has disabled application(s), the site will only be soft-deleted (disabled) and you will have 30 days to restore it if needed. Note: An email notification will be sent to editor(s) 3 days prior to the site being permanently deleted.
@@ -44,7 +44,7 @@ Note: A site can only be deleted when all search and recommend applications with
 
 2. Navigate to "My Projects"
 
-3. Click on "Restore site" 
+3. Click on "Restore site"
 ![Restore site](images/application/site/restore_site.png)
 
 4. Click on "Restore"

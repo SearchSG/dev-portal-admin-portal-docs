@@ -1,6 +1,6 @@
 ## User Profile
 
-Your user profile contains information such as your billing agency for the resources created by you. 
+Your user profile contains information such as your billing agency for the resources created by you.
 
 The email address in your profile will be used for email notifications regarding your SearchSG resources.
 

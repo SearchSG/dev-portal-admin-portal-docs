@@ -1,6 +1,6 @@
 ## Authentication
 
-To login to Admin Portal, firstly you will need to onboard to [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/sign-up-and-onboard-to-techpass "TechPass Onboard Guide"). 
+To login to Admin Portal, firstly you will need to onboard to [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/sign-up-and-onboard-to-techpass "TechPass Onboard Guide").
 
 ### How to login to Admin Portal?
 1. Access the URL: [https://www.admin.search.gov.sg/](https://www.admin.search.gov.sg/)

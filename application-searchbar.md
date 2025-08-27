@@ -36,7 +36,7 @@
     - If the option "I am using API data source(s) only" is selected in the previous step, in addition to following the guide to complete the integration with your website, you must also:
         - Click on "Add API data source".  
           ![Create app](images/application/search_bar/complete_setup_API_data_source.png)
-        - Complete the creation of the index on the "Index Overview" - "Data Sources" page. Follow Step 7 in the guide on [create a Search index](index#how-to-create-a-search-index) to proceed.
+        - Complete the creation of the index on the "Index Overview" - "Data Sources" page. Follow [this guide](index-searchbar#step-42-setup-an-api-data-source) to proceed.
           ![Create app](images/application/search_bar/search_bar_index_overview.png)
 
 6. Click on "View dashboard" to access the dashboard page.
@@ -59,7 +59,7 @@ Once your search Bar application is created, you can customise your search appli
 
 #### Advanced Setup
 
-Follow the index guide on how to [create, configure and delete a Search index](index)
+Follow the index guide on how to [create, configure and delete a Search index](index-searchbar)
 
 #### UI Customization
 

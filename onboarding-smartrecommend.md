@@ -2,15 +2,20 @@
 
 `SmartRecommend` provides tailored recommendations to your users through 2 modes:
 
-- **ML-based Recommendations** - Automated predictions based on Machine Learning model that learns from user interactions.
+- **ML-based Recommendations** - Automated predictions powered by a Machine Learning model that learns from user interactions.<br>This model recommends links based on three key factors:
+    - User interaction history: Derived from users’ previous activity, including clicks and page views.
+    - Popularity of website pages: Pages that receive more user engagement are displayed higher in the recommendations.
+    - Relevance score: Pages are shown based on their predicted relevance, with the highest-scoring ones displayed first.
+
+    This approach allows for personalized recommendations without requiring site owners to manually define the recommendation rules.
 
 - **Rule-based Recommendations** - Allows you to define specific rules and deterministic call-to-actions for targeted recommendations.
 
 ### Creating your SmartRecommend index
 
-(_Required only for_ `ML-based`) 
+(_Required only for_ `ML-based`)
 
-Navigate to **Index Library** page and refer to <u>Index Guide</u> (_Coming Soon_) for detailed steps.
+Navigate to **Index Library** page and refer to [Index Guide](index-smartrecommend) for detailed steps.
 
 ### Setting Up Your SmartRecommend Banner
 
