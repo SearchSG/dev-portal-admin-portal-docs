@@ -4,7 +4,7 @@
 
 1. Login to the Admin Portal.
 
-2. Under `Analytics`, select the site in the site selection dropdown and click on `Search usage`, `Query insights` or `Search result insights`.
+2. Under `Analytics`, select the site in the site selection dropdown and click on `Search insights`.
     - The site selection dropdown prioritizes the sites where you are the `owner` or `editor` and groups them under `My sites` at the top.
     - The other production sites are grouped under `All sites` in alphabetical order.
 
@@ -16,25 +16,83 @@
 
 The following key search analytics metrics are tracked and displayed to provide insights into search performance and user behavior on your site:
 
-1. **Search Volume**
+#### Overall Search Performance
+
+1. **Total no. of searches**
     - Definition: The total number of search transactions conducted on your site.
     - Purpose: Indicates the overall usage of the search functionality.
 
-2. **Click-through Rate (CTR)**
+2. **Total no. of sessions with at least 1 search**
+    - Definition: The total number of sessions where users performed at least one search query.
+    - Purpose: Measures how often users actively engage with the search functionality to assess search adoption.
+
+3. **Total no. of sessions with at least 1 search result click**
+    - Definition: The total number of sessions where users clicked on at least one search result.
+    - Purpose: Measures how often users find search results relevant enough to click, indicating the practical usefulness of the search function in guiding users to desired content.
+
+4. **Average search result click-through rate (CTR)**
     - Definition: The percentage of search sessions where users clicked on a search result after performing a search.
     - Purpose: Measures the relevance of search results to users' queries. A higher CTR indicates better performance.
 
-3. **Average Search Results Position Clicked (Mean Reciprocal Rank - MRR)**
+5. **Web visits with search - Trend over time**
+    - Definition: A time-series metric showing the count of website visits that included at least one search query.
+    - Purpose: Tracks changes in search usage patterns over time, helping to identify trends and detect anomalies.
+
+#### Search Results Relevancy
+
+1. **Average Results Position Clicked (Mean Reciprocal Rank - MRR)**
     - Definition: The average rank position of search results clicked by users on the search results page.
     - Purpose: Assesses how accurately the search engine ranks relevant results. A lower rank value indicates better accuracy.
 
-4. **Top Queries with Highest Click-through Rate**
-    - Definition: Search queries with the best performance in terms of CTR.
+2. **Average Results Position Clicked - Trending over time**
+    - Definition: A time-series metric showing the average position of search results clicked.
+    - Purpose: Tracks how the ranking position of  search results clicked changes over time to assess search relevance and measure search algorithm performance.
+
+#### Query Insights
+
+1. **% of search with at least 1 result**
+    - Definition: The percentage of searches that returned at least one result.
+    - Purpose: Measures the completeness of search coverage. A lower percentage indicates potential gaps in content or search functionality.
+
+2. **Top search query**
+    - Definition: The most frequently searched term within a given period.
+    - Purpose: Identifies the most frequently searched terms to reveal user intent and content demand.
+
+3. **Top queries with highest CTR (Best performing)**
+    - Definition: Search queries with the best performance in terms of click-through rates (CTR).
     - Purpose: Highlights topics and content keywords that users find most engaging and accessible.
 
-5. **Top Queries with No Click-through**
+4. **Top search queries with lowest CTR (Lowest performing)**
+    - Definition: The search queries with the lowest click-through rates (CTR).
+    - Purpose: Identifies problematic searches where results may not meet user expectations.
+
+5. **Top search queries with results but NO click-throughs**
     - Definition: Search queries that did not result in any clicks on search results.
-    - Purpose: Identifies content topics users are interested in but are unable to locate effectively. These queries represent opportunities for improvement in content quality, structure, or discoverability. You can considering leveraging featured results feature to pin specific useful webpage for the top queries identified here to improve search experience.
+    - Purpose: Identifies frequently searched terms where users view results but don't click, revealing potential mismatches between user intent and the content presented.
+
+6. **Top search queries WITHOUT results**
+    - Definition: The most common search queries that returned 0 results.
+    - Purpose: Identifies the most frequently searched terms that return 0 results, revealing gaps in content coverage or search functionality.
+
+#### Search Refinements Insights
+
+1. **Search refinement rate**
+    - Definition: The percentage of search sessions where users modified their search query.
+    - Purpose: Indicates whether users struggle to find relevant results on their first attempt.
+
+2. **Search refinement rate - Trend over time**
+    - Definition: A time-series metric of how often users refine their searches.
+    - Purpose: Tracks how often users modify their search queries over a defined period, indicating the effectiveness of initial search results.
+
+#### Whole-of-Government Search Scope Insights
+
+1. **Search scope usage**
+    - Definition: The distribution of searches across different search scopes.
+    - Purpose: Measures user preference for domain based search over Whole-of-government (WOG) search.
+
+2. **Whole-of-government scope top search queries**
+    - Definition: The most frequent search queries within the Whole-of-government (WOG) search scope.
+    - Purpose: Identifies the most frequent search terms entered by users when searching across the Whole-of-government (WOG) search scope.
 
 ## SmartAnswer Analytics
 
@@ -93,7 +151,7 @@ The following key search analytics metrics are tracked and displayed to provide 
     - Purpose: Measures how many web sessions include the SmartRecommend banner.
 
 2. **No. of banner views**
-    - Definition: The number of instances where a loaded SmartRecommend banner enters the user’s viewport in the browser.
+    - Definition: The number of instances where a loaded SmartRecommend banner enters the user's viewport in the browser.
     - Purpose: Measures how many users see the SmartRecommend banner while using your website. This reflects how visible or discoverable the banner placement is on the page to your users.
 
 3. **No of recommendation clicks**
