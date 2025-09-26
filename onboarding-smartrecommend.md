@@ -19,7 +19,7 @@ Navigate to **Index Library** page and refer to [Index Guide](index-smartrecomme
 
 ### Setting Up Your SmartRecommend Banner
 
-Follow the user guide for **[Rule-based](application-smartrecommend#how-to-create-a-rule-based-recommendation-banner)** (and <u>**ML-based**</u>, _coming soon_) to set up your banner and obtain the **Client ID** required for the next step.
+Follow the user guide for **[Rule-based](application-smartrecommend#how-to-create-a-rule-based-recommendation-banner)** or **[ML-based](application-smartrecommend#how-to-create-a-ml-based-recommendation-banner)** to set up your banner and obtain the **Client ID** required for the next step.
 
 With the **Client ID**, you can now follow the [onboarding steps](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-smartrecommend?id=step-3-integrate-smartrecommend-into-your-website) provided to add the integration script into your website to deploy the SmartRecommend banner.
 
