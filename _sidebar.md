@@ -13,4 +13,5 @@
         - [SmartAnswer](application-smartanswer.md)
     - [SmartRecommend](application-smartrecommend.md)
 - [Analytics](analytics.md)  
+- [Health Checker](healthchecker.md)  
 - [User Profile](user.md)  

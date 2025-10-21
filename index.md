@@ -23,7 +23,7 @@ Use this table to understand which features are currently supported and the corr
     <th>API Data Source</th>
     <th>Push API Data Source</th>
     <th>
-        Platform Data Source<br />
+        Platform Data Source<br>
         <span style="font-weight: normal"><i>(Coming soon)</i></span>
     </th>
     <tr>
@@ -41,7 +41,7 @@ Use this table to understand which features are currently supported and the corr
         <td>No</td>
     </tr>
     <tr>
-        <td>OneGov Enterprise Search<br /><i>(Coming Soon)</i></td>
+        <td>OneGov Enterprise Search<br><i>(Coming Soon)</i></td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>

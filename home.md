@@ -55,3 +55,5 @@ If you encounter any issues while using, please raise an incident through our [C
    8.1 [How to access the search bar analytics?](analytics#how-to-access-the-search-bar-analytics)  
    8.2 [How to access the SmartAnswer analytics?](analytics#how-to-access-the-smartanswer-analytics)  
    8.3 [How to access the SmartRecommend analytics?](analytics#how-to-access-the-smartrecommend-analytics)  
+
+9. [Health Checker](healthchecker#health-checker)
