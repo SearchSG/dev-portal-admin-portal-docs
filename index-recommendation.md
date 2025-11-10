@@ -1,4 +1,4 @@
-## SmartRecommend Index
+## Recommendation Index
 
 (_Required only for_ `ML-based`)
 
@@ -11,7 +11,7 @@
 #### Step 2: Add a New Index
 
 - Click on “Add new +” within the project card that you want to add your index to.
-- In the pop-up window, enter a title for your index, choose `SmartRecommend` as the type, and click “Create” to proceed.
+- In the pop-up window, enter a title for your index, choose `Recommendation` as the type, and click “Create” to proceed.
 ![Create index](images/index/smart_recommend/create_index.png)
 
 #### Step 3: View Created Index in Index Overview

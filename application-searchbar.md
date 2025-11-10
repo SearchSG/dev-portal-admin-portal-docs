@@ -1,6 +1,6 @@
-## Search Bar
+## Website Search
 
-### How to create a Search Bar?
+### How to create a Website Search Bar?
 
 1. Login to Admin Portal.
 
@@ -36,13 +36,13 @@
     - If the option "I am using API data source(s) only" is selected in the previous step, in addition to following the guide to complete the integration with your website, you must also:
         - Click on "Add API data source".  
           ![Create app](images/application/search_bar/complete_setup_API_data_source.png)
-        - Complete the creation of the index on the "Index Overview" - "Data Sources" page. Follow [this guide](index-searchbar#step-42-setup-an-api-data-source) to proceed.
+        - Complete the creation of the index on the "Index Overview" - "Data Sources" page. Follow [this guide](index-publicweb#step-42-setup-an-api-data-source) to proceed.
           ![Create app](images/application/search_bar/search_bar_index_overview.png)
 
 6. Click on "View dashboard" to access the dashboard page.
     - The application status will initially show as "Inactive" and will change to "Active" once the integration is complete on your website.
 
-### Configuring your Search Bar
+### Configuring your Website Search Bar
 
 Once your search Bar application is created, you can customise your search application under `Applications > Search Bar` section in the side menu.
 
@@ -51,7 +51,7 @@ Once your search Bar application is created, you can customise your search appli
 1. Search Bar Placement
 
     - Enter the HTML Id of the container div element where you would like the search bar component to be rendered on your website.
-    - Follow the onboarding guide on how to [add the searchbar widget to your website](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-search-bar?id=step-2-adding-searchbar-widget-to-your-site).
+    - Follow the onboarding guide on how to [add the searchbar widget to your website](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-search-bar?id=step-2-adding-website-search-bar-widget-to-your-site).
 
 2. Search Results Page Integration
     - Control whether you would like the search results page to be embedded within your website or redirected to a standalone search results page hosted on search.gov.sg domain.
@@ -59,7 +59,7 @@ Once your search Bar application is created, you can customise your search appli
 
 #### Advanced Setup
 
-Follow the index guide on how to [create, configure and delete a Search index](index-searchbar)
+Follow the index guide on how to [create, configure and delete a Search index](index-publicweb)
 
 #### UI Customization
 
@@ -134,7 +134,7 @@ Follow the index guide on how to [create, configure and delete a Search index](i
 - SmartAnswer leverages Large Language Models (LLMs) to deliver personalised answers to your queries. Drawing from credible sources within SearchSG's search results, it provides accurate and directly relevant information, saving users' time compared to traditional search methods.
 - See guide to configuring SmartAnswer [here](application-smartanswer#smartanswer).
 
-### How to disable a Search Bar?
+### How to disable a Website Search Bar?
 
 1. Login to Admin Portal
 
@@ -151,7 +151,7 @@ Follow the index guide on how to [create, configure and delete a Search index](i
 6. Search bar will be disabled
    ![Disable app](images/application/search_bar/search_bar_disabled.png)
 
-### How to enable a Search Bar?
+### How to enable a Website Search Bar?
 
 1. Login to Admin Portal
 

@@ -117,7 +117,7 @@
     - **Number of recommended links**:
         - When **Link Banner** is selected in the previous step, you can select up to 6 links.
         - When **Card Banner** is selected, you can select up to 4 links.
-    - **Source of recommendations**: You can either select an existing SmartRecommend index or follow the [user guide](index-smartrecommend#how-to-create-a-smartrecommend-index) to create a new one.
+    - **Source of recommendations**: You can either select an existing SmartRecommend index or follow the [user guide](index-recommendation#how-to-create-a-smartrecommend-index) to create a new one.
 
 6. Set up banner styling and click next.
     ![Create app](images/application/smart_recommend/banner_style_preview.png)

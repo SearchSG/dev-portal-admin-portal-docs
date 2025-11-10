@@ -19,6 +19,7 @@ Use this table to understand which features are currently supported and the corr
 
 <table>
     <th>Feature</th>
+    <th>Index Type</th>
     <th>Web Data Source</th>
     <th>API Data Source</th>
     <th>Push API Data Source</th>
@@ -27,7 +28,8 @@ Use this table to understand which features are currently supported and the corr
         <span style="font-weight: normal"><i>(Coming soon)</i></span>
     </th>
     <tr>
-        <td>Search Bar</td>
+        <td>Website Search</td>
+        <td>Public Web Index</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
@@ -35,6 +37,7 @@ Use this table to understand which features are currently supported and the corr
     </tr>
     <tr>
         <td>SmartRecommend</td>
+        <td>Recommendation Index</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>No</td>
@@ -42,6 +45,7 @@ Use this table to understand which features are currently supported and the corr
     </tr>
     <tr>
         <td>OneGov Enterprise Search<br><i>(Coming Soon)</i></td>
+        <td>Enterprise Index</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
