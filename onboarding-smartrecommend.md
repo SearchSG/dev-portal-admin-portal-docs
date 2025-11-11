@@ -15,7 +15,7 @@
 
 (_Required only for_ `ML-based`)
 
-Navigate to **Index Library** page and refer to [Index Guide](index-smartrecommend) for detailed steps.
+Navigate to **Index Library** page and refer to [Index Guide](index-recommendation) for detailed steps.
 
 ### Setting Up Your SmartRecommend Banner
 

@@ -1,4 +1,4 @@
-## Onboarding for Search Bar
+## Onboarding for Website Search
 
 ### Setting Up Your Project
 
@@ -22,8 +22,8 @@ Once your Project is set up, you can create a search index to define your knowle
 
 With your search index established, you can now create an application that utilizes the index for search functionality.
 
-1.  Refer to the [User Guide](application-searchbar#how-to-create-a-search-bar) for step-by-step instructions to set up a new application with default configurations populated and a **Client ID** generated.
-2.  With the **Client ID**, you can now follow the [onboarding steps](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-search-bar?id=step-2-adding-searchbar-widget-to-your-site) provided to add the integration script into your website to deploy the search app.
-3.  You can further customize your search application's features and theme by adjusting the configurations in **Workspace > Application**. Refer to [Application Guide](application-searchbar#configuring-your-search-bar) for detailed steps for configurations.
+1.  Refer to the [User Guide](application-searchbar#how-to-create-a-website-search-bar) for step-by-step instructions to set up a new application with default configurations populated and a **Client ID** generated.
+2.  With the **Client ID**, you can now follow the [onboarding steps](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-search-bar?id=step-2-adding-website-search-bar-widget-to-your-site) provided to add the integration script into your website to deploy the search app.
+3.  You can further customize your search application's features and theme by adjusting the configurations in **Workspace > Application**. Refer to [Application Guide](application-searchbar#configuring-your-website-search-bar) for detailed steps for configurations.
 
 Once the integration script is added to your site, your search functionality will be live and ready for use!
