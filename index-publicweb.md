@@ -42,7 +42,7 @@
 ![API data sources](images/index/public_web/create_api_data_source.png)
 - Once configured, Data health check on your api will be performed.
 ![API data sources](images/index/public_web/api_data_source_health_check.png)
-    - If all required data are presented, click on "Add data source"
+    - If all required data are present, click on "Add data source"
     - If there are missing required data, you can choose to "Fix issues" or "Continue with warnings"
     ![API data sources](images/index/public_web/api_data_source_required_info_missing.png)
 
@@ -76,7 +76,7 @@
 1. Access Synonyms
     - Navigate to the "Synonyms" page to set up synonyms.
 2. Request Synonyms setup for your Index
-    - To add synonyms, reach out to us by clicking on the "Submit request form" button.
+    - To add synonyms, reach out to us by clicking on the "Request to add or edit synonyms" button.
     ![Synonyms](images/index/public_web/index_synonyms.png)
 
 
