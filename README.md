@@ -29,6 +29,7 @@ If you encounter any issues while using, please raise an incident through our [C
 6. [Index Guide](index.md#index)  
    6.1 [Public Web Index](index-publicweb.md)  
    6.2 [Recommendation Index](index-recommendation.md)  
+   6.3 [Directory Index](index-directorysearch.md)  
 7. [Application Guide](application.md#application)  
    7.1 [Site](application-site.md#site)  
       - [How to create a site?](application-site.md#how-to-create-a-site)  

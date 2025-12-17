@@ -7,6 +7,7 @@
     - For Indexes Connected to Apps:
         - None of the connected apps are currently active, and
         - None of these apps have been updated in over 30 days
+        - Note: Once an index is deactivated, all contents and files sent through the PushAPI data source will be permanently removed. 
 
 - `Data Sources` - Data sources are connectors that facilitate data syncing and indexing, either through web scraping or by connecting to your APIs.
     - **Web Data Source**: Utilize our web crawlers to scrape publicly accessible websites, automatically crawling and re-indexing data on a daily basis.
@@ -41,6 +42,14 @@ Use this table to understand which features are currently supported and the corr
         <td>Yes</td>
         <td>Yes</td>
         <td>No</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td>Directory Search</td>
+        <td>Directory Index</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
         <td>No</td>
     </tr>
     <tr>
