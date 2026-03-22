@@ -1,12 +1,14 @@
 ## Authentication
 
-To login to Admin Portal, firstly you will need to onboard to [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/sign-up-and-onboard-to-techpass "TechPass Onboard Guide").
+To login to Admin Portal, firstly you will either need to onboard to [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/sign-up-and-onboard-to-techpass "TechPass Onboard Guide") or have an active WOG AD (Whole-Of-Government Azure Active Directory) account.
 
 ### How to login to Admin Portal?
 1. Access the URL: [https://www.admin.search.gov.sg/](https://www.admin.search.gov.sg/)
-2. Click on “Login via TechPass”
-3. Follow through the TechPass authentication
-4. Upon first time successfully login to Admin Portal, you will be brought to the “Workspace” page.
+   1. If you are using TechPass account, click on “Login via TechPass”
+      - Follow through the TechPass authentication
+   2. If you are using WOG AD account, click on "Login via WOG AD"
+      - Follow through the Microsoft Authentication.
+2. Upon first time successfully login to Admin Portal, you will be brought to the “Workspace” page.
 ![Workspace](images/authentication/first-timer-login.png)
 
 ### How to sign up to TechPass?
