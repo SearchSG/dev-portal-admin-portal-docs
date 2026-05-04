@@ -15,8 +15,8 @@ The Health Checker is a tool designed to analyse and optimise your page content 
 ### How to Access the Health Checker
 
 1. Log in to the Admin Portal.
-2. Navigate to “Workspace” and select your production site from the site selection dropdown.
-3. Click “Health checker”.
+2. Navigate to "Workspace" and select your production site from the site selection dropdown.
+3. Click "Health checker".
 4. You will be redirected to the Health Checker page.
 
 ![Health Checker Dashboard](images/healthchecker/healthchecker-dashboard.png)
@@ -44,7 +44,7 @@ Issues are split into four categories:
 1. Metadata
 2. Table
 3. Crawling
-4. “Ghost” pages
+4. "Ghost" pages
 
 **Note:**
 - Within each category, issues are ordered by occurrence count (highest to lowest).
@@ -61,9 +61,9 @@ The Health Checker includes an option to download reports in PDF format so you c
 #### How to Download a Health Checker Report
 
 1. Log in to the Admin Portal.
-2. Navigate to “Workspace” and select your production site from the site selection dropdown.
-3. Click “Health checker”.
-4. Click the “Download report (.pdf)" button.
+2. Navigate to "Workspace" and select your production site from the site selection dropdown.
+3. Click "Health checker".
+4. Click the "Download report (.pdf)" button.
 5. The preview of the report will be shown in a new browser tab.
 6. Click the browser’s **Print** button, or use the shortcut:
     - **Edge / Chrome**: `Ctrl + P` (Windows) or `Cmd + P` (Mac).
@@ -73,4 +73,4 @@ The Health Checker includes an option to download reports in PDF format so you c
 
 Reports are optimized for **A4 paper size with portrait layout**.
 
-Ensure the option **“Background graphics”** is ticked so that different colors indicated in the report are shown correctly in the downloaded PDF. If you are unable to locate this setting, please expand **“More settings”** in the print dialog.
+Ensure the option **"Background graphics"** is ticked so that different colors indicated in the report are shown correctly in the downloaded PDF. If you are unable to locate this setting, please expand **"More settings"** in the print dialog.

@@ -76,7 +76,7 @@ Follow the index guide on how to [create, configure and delete a Search index](i
         - Suggested keywords: Popular queries similar to the user’s search terms. Ranked by keyword frequency and click-through rate.
         - Suggested results: Top pages that match the user’s search terms. Ranked by page views and click-through rate.
 
-    - “Try the improved search” call-out: Choose to show or hide this call-out on the search bar.
+    - "Try the improved search" call-out: Choose to show or hide this call-out on the search bar.
         - Show call-out: Highlight the search bar as a new feature to encourage visitors to use it
         - Hide call-out: Let the new search bar blend in like an existing feature
 

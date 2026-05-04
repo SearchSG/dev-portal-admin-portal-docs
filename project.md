@@ -14,7 +14,7 @@
 2. Navigate to "My Projects" and click on "Manage Editors".
 ![Add editor](images/project/editor/project_manage_editor.png)
 
-3. You will be brought to the “Manage Editors” page, where you will see the project owner and existing editors.
+3. You will be brought to the "Manage Editors" page, where you will see the project owner and existing editors.
 - Owner - Refers to the creator of the project. Cannot be removed by other editors on their project.
 - Editor - Refers to any users that are allowed to modify users and resources associated with the project.
 ![Add editor](images/project/editor/manage_editors.png)

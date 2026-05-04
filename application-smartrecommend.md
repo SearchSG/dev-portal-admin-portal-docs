@@ -4,17 +4,17 @@
 
 1. Login to Admin Portal.
 
-2. Click on “Create app” then “SmartRecommend”.
+2. Click on "Create app" then "SmartRecommend".
     ![Create app](images/application/smart_recommend/create_app.png)
 
 3. Choose the site you would like to place the banner then click next.
     ![Create app](images/application/smart_recommend/choose_existing_site.png)
     - If you would like to place the banner on your existing site, select the site from the drop-down list
-    - If you would like to place the banner on a new site, select the option “Create a new site” and enter the information such as name, URL and choose the environment
+    - If you would like to place the banner on a new site, select the option "Create a new site" and enter the information such as name, URL and choose the environment
 
     ![Create app](images/application/smart_recommend/create_new_site.png)
     - If you would like to add the new site into your existing project, select the project from the drop-down list
-    - If you would like to add the new site into a new project, select the option “Create a new project” and enter the project name and choose the agency
+    - If you would like to add the new site into a new project, select the option "Create a new project" and enter the project name and choose the agency
 
     ![Create app](images/application/smart_recommend/create_new_project.png)
 
@@ -58,12 +58,12 @@
 7. Set up banner styling and click next.
     ![Create app](images/application/smart_recommend/banner_style_preview.png)
     ![Create app](images/application/smart_recommend/review_banner_style_settings.png)
-    - Click “Edit style“ to open the styling panel
+    - Click "Edit style" to open the styling panel
     - In the pop-up window, tailor the banner’s appearance for desktop, tablet, and mobile views.
 
     ![Create app](images/application/smart_recommend/banner_style_sandbox.png)
 
-8. Set banner placement and click “Add banner”.
+8. Set banner placement and click "Add banner".
 
     Select the page(s) where your banner should appear and define the HTML marker. **Note**: Each banner requires a distinct marker to ensure proper display.
 
@@ -76,7 +76,7 @@
         **Note:** The HTML marker must be unique. Validation also applies to banners in `disabled` status.
     - Follow the [steps](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-smartrecommend?id=onboarding-for-smartrecommend) for detailed instructions to complete your onboarding.
 
-9. Click on “View my SmartRecommend banners” to access your banner listing page.
+9. Click on "View my SmartRecommend banners" to access your banner listing page.
     - The banner will be created in an `enabled` status and can be instantly previewed and verified after adding the code snippet to your website.
 
     ![Create app](images/application/smart_recommend/created_app.png)
@@ -85,17 +85,17 @@
 
 1. Login to Admin Portal.
 
-2. Click on “Create app” then “SmartRecommend”.
+2. Click on "Create app" then "SmartRecommend".
     ![Create app](images/application/smart_recommend/create_app.png)
 
 3. Choose the site you would like to place the banner then click next.
     ![Create app](images/application/smart_recommend/choose_existing_site.png)
     - If you would like to place the banner on your existing site, select the site from the drop-down list
-    - If you would like to place the banner on a new site, select the option “Create a new site” and enter the information such as name, URL and choose the environment
+    - If you would like to place the banner on a new site, select the option "Create a new site" and enter the information such as name, URL and choose the environment
 
     ![Create app](images/application/smart_recommend/create_new_site.png)
     - If you would like to add the new site into your existing project, select the project from the drop-down list
-    - If you would like to add the new site into a new project, select the option “Create a new project” and enter the project name and choose the agency
+    - If you would like to add the new site into a new project, select the option "Create a new project" and enter the project name and choose the agency
 
     ![Create app](images/application/smart_recommend/create_new_project.png)
 
@@ -122,7 +122,7 @@
 6. Set up banner styling and click next.
     ![Create app](images/application/smart_recommend/banner_style_preview.png)
     ![Create app](images/application/smart_recommend/review_banner_style_settings.png)
-    - Click “Edit style“ to open the styling panel
+    - Click "Edit style" to open the styling panel
     - In the pop-up window, tailor the banner’s appearance for desktop, tablet, and mobile views.
 
     ![Create app](images/application/smart_recommend/banner_style_sandbox.png)
@@ -140,7 +140,7 @@
         **Note:** The HTML marker must be unique. Validation also applies to banners in `disabled` status.
     - Follow the [steps](https://docs.developer.tech.gov.sg/docs/searchsg-onboarding-guide/onboarding-for-smartrecommend?id=onboarding-for-smartrecommend) for detailed instructions to complete your onboarding.
 
-8. Click on “View my SmartRecommend banners” to access your banner listing page.
+8. Click on "View my SmartRecommend banners" to access your banner listing page.
     - The banner will be created in an `enabled` status and can be instantly previewed and verified after adding the code snippet to your website.
 
     ![Create app](images/application/smart_recommend/created_app.png)
@@ -165,14 +165,14 @@
 
 1. Login to Admin Portal
 
-2. Navigate to “Workspace” and select your site from the drop-down list
+2. Navigate to "Workspace" and select your site from the drop-down list
 
-3. Click on “SmartRecommend”
+3. Click on "SmartRecommend"
 
-4. Click on the ![Delete app](images/3dots_icon.png) icon and select “Delete”
+4. Click on the ![Delete app](images/3dots_icon.png) icon and select "Delete"
     ![Delete app](images/application/smart_recommend/delete_app.png)
 
-5. In the pop-up window, click “Delete SmartRecommend banner”.
+5. In the pop-up window, click "Delete SmartRecommend banner".
     ![Delete app](images/application/smart_recommend/delete_app_popup.png)
 
 6. The banner will be deleted (removed) from the list.
@@ -182,14 +182,14 @@
 
 1. Login to Admin Portal
 
-2. Navigate to “Workspace” and select your site from the drop-down list
+2. Navigate to "Workspace" and select your site from the drop-down list
 
-3. Click on “SmartRecommend”
+3. Click on "SmartRecommend"
 
-4. Click on the ![Disable app](images/3dots_icon.png) icon and select “Disable”
+4. Click on the ![Disable app](images/3dots_icon.png) icon and select "Disable"
     ![Disable app](images/application/smart_recommend/disable_app.png)
 
-5. In the pop-up window, click “Disable banner”.
+5. In the pop-up window, click "Disable banner".
     ![Disable app](images/application/smart_recommend/disable_app_popup.png)
 
 6. The banner will be disabled (deactivated).
@@ -199,43 +199,43 @@
 
 1. Login to Admin Portal
 
-2. Navigate to “Workspace” and select your site from the drop-down list
+2. Navigate to "Workspace" and select your site from the drop-down list
 
-3. Click on “SmartRecommend”
+3. Click on "SmartRecommend"
 
-4. Click on the ![Enable app](images/3dots_icon.png) icon on the row of the disabled SmartRecommend banner then select “Enable”
+4. Click on the ![Enable app](images/3dots_icon.png) icon on the row of the disabled SmartRecommend banner then select "Enable"
     ![Enable app](images/application/smart_recommend/enable_app.png)
 
-5. Click “Enable banner” button in the pop-up window
+5. Click "Enable banner" button in the pop-up window
     ![Enable app](images/application/smart_recommend/enable_app_popup.png)
 
 6. If your banner doesn’t have an existing index, you will be prompted to go through a flow to connect one.
-    - Click “Connect an Index”, then either select an existing index or go to the “Index Library” page to create a new one.
+    - Click "Connect an Index", then either select an existing index or go to the "Index Library" page to create a new one.
 
     ![Enable app](images/application/smart_recommend/enable_app_missing_index.png)
     ![Enable app](images/application/smart_recommend/enable_app_choose_existing_index.png)
-    - If you don’t have any available indexes, you will see the screen below. Simply click “Create an Index in Index Library”.
+    - If you don’t have any available indexes, you will see the screen below. Simply click "Create an Index in Index Library".
 
     ![Enable app](images/application/smart_recommend/enable_app_create_index.png)
-    - Click the “Confirm” button to finalize your index selection. **Note**: It will take up to 15 minutes to sync the newly selected index.
+    - Click the "Confirm" button to finalize your index selection. **Note**: It will take up to 15 minutes to sync the newly selected index.
 
     ![Enable app](images/application/smart_recommend/enable_app_confirm.png)
-    - “Banner connected to index” will appear at the bottom of the screen. You can now repeat steps 4 and 5 to enable your banner.
+    - "Banner connected to index" will appear at the bottom of the screen. You can now repeat steps 4 and 5 to enable your banner.
 
     ![Enable app](images/application/smart_recommend/enable_app_with_index.png)
 
-7. “Banner enabled” will appear at the bottom, and the banner status will change to `Enabled`.
+7. "Banner enabled" will appear at the bottom, and the banner status will change to `Enabled`.
     ![Enable app](images/application/smart_recommend/enabled_app.png)
 
 ### How to duplicate SmartRecommend banner?
 
 1. Login to Admin Portal
 
-2. Navigate to “Workspace” and select your site from the drop-down list
+2. Navigate to "Workspace" and select your site from the drop-down list
 
-3. Click on “SmartRecommend”
+3. Click on "SmartRecommend"
 
-4. Click on ![Duplicate app](images/3dots_icon.png) icon on the row of the SmartRecommend banner then select “Duplicate”
+4. Click on ![Duplicate app](images/3dots_icon.png) icon on the row of the SmartRecommend banner then select "Duplicate"
     ![Duplicate app](images/application/smart_recommend/duplicate_app.png)
 
 5. You can duplicate a banner either within the same site or across different sites/projects.

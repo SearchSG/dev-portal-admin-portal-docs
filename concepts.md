@@ -10,7 +10,7 @@
 
 - An index serves as a repository for your documents, acting as a searchable knowledge base. It can contain one or more data sources that sync your data with the SearchSG platform.
 - Indexes you create for a project can be shared across all the apps within the same project.
-For example, if you create an index in the “SearchSG” project, you can test the index on a staging site (e.g. stg.search.gov.sg) then use the same index on a production site (e.g. prod.search.gov.sg).
+For example, if you create an index in the "SearchSG" project, you can test the index on a staging site (e.g. stg.search.gov.sg) then use the same index on a production site (e.g. prod.search.gov.sg).
 
 ### Data Sources
 
