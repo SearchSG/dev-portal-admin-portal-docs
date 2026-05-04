@@ -3,6 +3,7 @@
 - [Onboarding to SearchSG](onboarding.md)
     - [Website Search](onboarding-searchbar.md)
     - [SmartRecommend](onboarding-smartrecommend.md)
+- [Subscription](subscription.md)
 - [Projects](project.md)  
 - [Indexes](index.md)  
     - [Public Web Index](index-publicweb.md)

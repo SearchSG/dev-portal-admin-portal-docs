@@ -7,7 +7,7 @@
 
 Note: If your website was onboarded to SearchSG via `Isomer Next`, you can only view analytics in the admin portal.
 
-If you encounter any issues while using, please raise an incident through our [Contact Us form](https://go.gov.sg/searchsg-request).
+If you encounter any issues while using our Admin Portal, please raise an incident through our [Contact Us form](https://go.gov.sg/searchsg-request).
 
 ## Table of Contents
 1. [Key Concepts of SearchSG Admin Portal](concepts)  
@@ -58,3 +58,5 @@ If you encounter any issues while using, please raise an incident through our [C
    8.3 [How to access the SmartRecommend analytics?](analytics#how-to-access-the-smartrecommend-analytics)  
 
 9. [Health Checker](healthchecker#health-checker)
+
+10. [Subscription Guide](subscription.md#overview)
