@@ -9,6 +9,8 @@
     - [Public Web Index](index-publicweb.md)
     - [Recommendation Index](index-recommendation.md)
     - [Directory Index](index-directorysearch.md)
+    - [Enterprise Index](index-enterprise.md)
+        - [SharePoint Online Data Source](index-enterprise-sharepoint.md)
 - [Applications](application.md)  
     - [Site](application-site.md)
     - [Website Search](application-searchbar.md)

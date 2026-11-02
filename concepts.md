@@ -15,10 +15,11 @@ For example, if you create an index in the "SearchSG" project, you can test the 
 ### Data Sources
 
 - Data sources are the building blocks of a search index, determining what content users can find when they search.
-- Data source connectors facilitate data syncing and indexing, either through web scraping or by connecting to your APIs.
+- Data source connectors facilitate data syncing and indexing, either through web scraping, connecting to your APIs, or connecting to supported content platforms.
     - **Web Data Source**: Utilize our web crawlers to scrape publicly accessible websites, automatically crawling and re-indexing data on a daily basis.
     - **API Data Source**: Connect to your APIs to poll for data updates, enabling automatic updates and re-indexing on an hourly basis.
     - **Push API Data Source**: Push your updated content and files by sending data to our API endpoints at your preferred timing.
+    - **Platform Data Source**: Connect content from supported platforms such as SharePoint Online, Slack, Confluence, Microsoft Teams, Outlook and OneDrive. Available for Enterprise Indexes only.
 
 ### Sites
 
