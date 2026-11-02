@@ -9,10 +9,11 @@
         - None of these apps have been updated in over 30 days
         - Note: Once an index is deactivated, all contents and files sent through the PushAPI data source will be permanently removed. 
 
-- `Data Sources` - Data sources are connectors that facilitate data syncing and indexing, either through web scraping or by connecting to your APIs.
+- `Data Sources` - Data sources are connectors that facilitate data syncing and indexing, either through web scraping, connecting to your APIs, or connecting to supported content platforms.
     - **Web Data Source**: Utilize our web crawlers to scrape publicly accessible websites, automatically crawling and re-indexing data on a daily basis.
     - **API Data Source**: Connect to your APIs to poll for data updates, enabling automatic updates and re-indexing on an hourly basis.
     - **Push API Data Source**: Push your updated content and files by sending data to our API endpoints at your preferred timing.
+    - **Platform Data Source**: Connect content from supported platforms such as SharePoint Online, Slack, Confluence, Microsoft Teams, Outlook and OneDrive. Available for Enterprise Indexes only.
 
 ## Available Features & Compatibility
 
@@ -25,8 +26,7 @@ Use this table to understand which features are currently supported and the corr
     <th>API Data Source</th>
     <th>Push API Data Source</th>
     <th>
-        Platform Data Source<br>
-        <span style="font-weight: normal"><i>(Coming soon)</i></span>
+        Platform Data Source
     </th>
     <tr>
         <td>Website Search</td>
@@ -53,8 +53,8 @@ Use this table to understand which features are currently supported and the corr
         <td>No</td>
     </tr>
     <tr>
-        <td>OneGov Enterprise Search<br><i>(Coming Soon)</i></td>
-        <td>Enterprise Index</td>
+        <td>OneGov Enterprise Search</td>
+        <td><a href="https://docs.developer.tech.gov.sg/docs/searchsg-admin-portal-user-guide/index-enterprise">Enterprise Index</a></td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Yes</td>
